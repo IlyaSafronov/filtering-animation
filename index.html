@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class="content-grid">
+    <header class="primary-header full-width">
+      <div class="primary-header__layout">
+        <nav class="primary-navigation">
+          <ul>
+            <li><a href="#">Discover</a></li>
+            <li><a href="">Live</a></li>
+            <li><a href="">Jobs</a></li>
+            <li><a aria-current="page" href="">Conferences</a></li>
+          </ul>
+        </nav>
+
+        <div class="account-links">
+          <a href="#">Log In</a>
+          <a class="create-account" href="#">Get Started</a>
+        </div>
+      </div>
+    </header>
+
+    <nav aria-label="Breadcrumb" class="breadcrumbs">
+      <ol>
+        <li><a href="#">Conferences</a></li>
+        <li><a href="#" aria-current="page">Tech</a></li>
+      </ol>
+    </nav>
+
+    <main class="main-with-aside">
+      <div class="flow">
+        <h1>Tech Conferences</h1>
+        <div class="filter">
+          <h2 class="visually-hidden">Filter by type of conference
+          </h2>
+          <button class="filter-btn-active" data-filter="all">
+            All
+          </button>
+          <button class="filter-btn" data-filter="frontend">
+            Frontend
+          </button>
+          <button class="filter-btn" data-filter="backend">
+            Backend
+          </button>
+          <button class="filter-btn" data-filter="fullstack">
+            Fullstack
+          </button>
+        </div>
+
+        <ul class="conference-list">
+          <li class="conference" data-category="fullstack">
+            <div class="conference-details">
+              <span class="conference-date">January 30th - February 1st</span>
+              <span class="conference-category">Fullstack</span>
+            </div>
+            <h2 class="conference-name">That Conference Texas</h2>
+          </li>
+
+          <li class="conference" data-category="fullstack">
+            <div class="conference-details">
+              <span class="conference-date">Fabruary 29th - March 1st</span>
+              <span class="conference-category">Fullstack</span>
+            </div>
+            <h2 class="conference-name">DevWorld</h2>
+          </li>
+
+          <li class="conference" data-category="backend">
+            <div class="conference-details">
+              <span class="conference-date">March 19th - March 23rd</span>
+              <span class="conference-category">Backend</span>
+            </div>
+            <h2 class="conference-name">SQBits</h2>
+          </li>
+
+          <li class="conference" data-category="frontend">
+            <div class="conference-details">
+              <span class="conference-date">June 6th - June 7th</span>
+              <span class="conference-category">Frontend</span>
+            </div>
+            <h2 class="conference-name">CSS Day</h2>
+          </li>
+
+          <li class="conference" data-category="frontend">
+            <div class="conference-details">
+              <span class="conference-date">September 9th - September 11th</span>
+              <span class="conference-category">Frontend</span>
+            </div>
+            <h2 class="conference-name">SmashingConf Freiburg</h2>
+          </li>
+        </ul>
+      </div>
+
+      <aside class="sidebar-flow">
+        <h3>Discover</h3>
+        <div>
+          <h4>Lorem ipsum dolor sit amet.
+          </h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, earum?
+          </p>
+        </div>
+
+        <div>
+          <h4>
+            Lorem ipsum dolor sit amet.
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quo!
+          </p>
+        </div>
+
+        <div>
+          <h4>
+            Lorem ipsum dolor sit amet.
+          </h4>
+          <p>
+             Iusto, quo! Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          </p>
+        </div>
+
+        <div>
+          <h4>
+            Lorem ipsum dolor sit amet.
+          </h4>
+          <p>
+             Dolorum esse sequi ratione corporis consequatur nesciunt dolorem asperiores nobis eius.
+          </p>
+        </div>
+      </aside>
+    </main>
+  </div>
+  
+
+  <script src="./script.js"></script>
+</body>
+</html>
