@@ -155,11 +155,13 @@ body {
   padding: 0;
 }
 
+
 .conference:not(:last-child):not(:has(+[hidden])) {
   padding-bottom: 2rem;
   margin-bottom: 2rem;
   border-bottom: 1px solid black;
 }
+
 
 .conference-date::after {
   content: '.';
@@ -188,6 +190,7 @@ body {
 }
 
 .filter-btn-active {
+  pointer-events: none;
   background: black;
   color: white;
   box-shadow: 0 0 0.5rem rgb(0 0 0 / 0.2);
