@@ -189,9 +189,10 @@ body {
   background-color: #ccc;
 }
 
-.filter-btn-active {
+.filter-btn.active {
   pointer-events: none;
   background: black;
   color: white;
   box-shadow: 0 0 0.5rem rgb(0 0 0 / 0.2);
 }
+
